@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: rgb(246, 251, 255);
+}
+
+iframe {
+  margin-left: 1rem;
+}
+.media {
+  display: flex;
+}
+.embeditem:first-child {
+  margin-right: 0.5rem;
+}
+
+.youtube {
+  width: 35rem;
+  height: 18.8rem;
+  border: 0;
+  max-width: 100%;
+  border-radius: 1rem;
+}
+.map {
+  border-radius: 1rem;
+}
+p {
+  font-style: italic;
+  font-size: 2rem;
+  color: palegreen;
+  margin-bottom: 0.1rem;
+  margin-left: 1rem;
+}
+h2 {
+  color: green;
+  margin-left: 1rem;
+}
+h3 {
+  margin-left: 1rem;
+}
+.audio-pix {
+  display: flex;
+  align-items: center;
+}
+audio {
+  display: block;
+  margin: 1rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.mimimi {
+  background-color: navy;
+}
+.rumours {
+  background-color: green;
+}
+.video-sample {
+  display: flex;
+  width: 30rem;
+  height: 10rem;
+  border: 0;
+  max-width: 100%;
+  border-radius: 1rem;
+}
+.video-sample video {
+  margin-right: 1rem;
+  border-radius: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+img {
+  border-radius: 2rem;
+  transition: 1s;
+}
+
+img:hover {
+  filter: hue-rotate(360deg) drop-shadow(16px 16px 20px rgb(143, 143, 155));
+  /* transition: all 1s ease-in-out; */
+
+  /* 
+filter: blur(5px);
+filter: brightness(0.4);
+filter: contrast(200%);
+filter: drop-shadow(16px 16px 20px blue);
+filter: grayscale(50%);
+filter: hue-rotate(90deg);
+filter: invert(75%);
+filter: opacity(25%);
+filter: saturate(30%);
+filter: sepia(60%); */
+
+  /* Multiple filters */
+  /* filter: contrast(175%) brightness(3%); */
+
+  /* Use no filter */
+  /* filter: none; */
+}
